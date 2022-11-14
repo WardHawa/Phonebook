@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+/* header section*/
+/*making the display of the application flex and sorted by colmun*/
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /*to use all the page*/
+}
+/*making the header flex to center the text*/
+.labelTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: brown;
+}
+/*main*/
+.main {
+  display: block;
+  flex-grow: 1; /*making the footer at the bottom of the page*/
+}
+/*The Empty text centering it and making the font more bigger*/
+.empty {
+  font-size: 100px;
+}
+/*centering the empty text*/
+h2 {
+  text-align: center;
+}
+/*circling all the imges in the project*/
+img {
+  border-radius: 50%;
+  padding-left: 0.5rem;
+}

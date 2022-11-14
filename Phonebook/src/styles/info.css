@@ -1,0 +1,25 @@
+/*info popup (info.js)*/
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: 6rem;
+}
+/*making a border arownd the text into info.js and make the making the corner radius */
+.content .info div {
+  border: solid green 5px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.content .info label {
+  margin-left: 1rem;
+}
+/*name of the person in info.js */
+.text {
+  text-align: center;
+  font-size: 5.5rem;
+  text-transform: capitalize; /*making all of the latters in capital */
+  font-weight: bold; /*bolding the text*/
+  color: brown;
+}

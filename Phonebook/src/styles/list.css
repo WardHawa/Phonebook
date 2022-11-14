@@ -1,0 +1,16 @@
+li {
+  display: block;
+  color: darkgreen;
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+/*removing the dots near every list*/
+ul {
+  list-style-type: none;
+}
+/*making a max width to the ContactList.js to make it look good and centering it*/
+#booklists {
+  max-width: 90rem;
+  margin: auto;
+}

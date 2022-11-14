@@ -1,0 +1,44 @@
+/*the main popup container*/
+.popup {
+  position: fixed;
+  z-index: 1; /*to make the box above the main container*/
+  left: 0;
+  top: 0;
+  width: 100%; /*to to make all width the screen on grey*/
+  height: 100%; /*to to make all hight the screen on grey*/
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none; /*the defult for popup to hide until we press the button*/
+  font-size: 3rem;
+}
+
+/* Modal Content/Box */
+/*the conent in the box that : */
+.content {
+  display: block; /*displays as block*/
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  max-width: fit-content; /*making the width to fit the content*/
+}
+/*Close button css*/
+.close {
+  background-color: white; /*making the button backgrounf like the content*/
+  float: right; /*moving the click to the right of the box*/
+  font-weight: bold;
+  cursor: pointer; /*when point to the button shows anothe cursor*/
+  width: 15px;
+  height: 15px;
+  font-size: 4rem;
+  border: none; /*making it without border*/
+}
+/*making ContactForm.js flex box and sorted by row*/
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+/*changing the background color of save button and making space from the top */
+.content form .submit {
+  margin-top: 1rem;
+  background-color: green;
+}
+

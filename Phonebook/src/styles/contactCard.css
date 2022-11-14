@@ -1,0 +1,31 @@
+/*making a flex box on ContactCard */
+.contactCard {
+  display: flex;
+  border: 2px solid black; /*making a border to all the card */
+  border-radius: 5px; /*circling the border corners*/
+  min-width: fit-content;
+}
+/*making the name and the photo left of the card */
+.contactCardDetails {
+  display: flex;
+  flex-direction: row; /*making the childs sorted by row*/
+  align-items: center; /*centering it*/
+  margin-right: auto;
+  max-width: fit-content;
+}
+/*making a space between the photo and the name */
+.contactCardDetails div {
+  padding-right: 1.5rem;
+}
+/*to help */
+.contactCardButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+/*making a space between the buttons*/
+.contactCardButtons img {
+  margin-left: 1rem;
+}
+

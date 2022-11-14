@@ -1,0 +1,26 @@
+/*displaying the topbar to flex and aligning the items into center*/
+.actionsBar {
+  display: flex;
+  width: auto;
+  position: relative;
+  max-width: 80rem; /*givving max with for container*/
+  align-items: center;
+  margin: auto;
+}
+/*moving the search input to the left*/
+.actionsBar input {
+  width: 15rem;
+  margin-right: auto;
+}
+/* modifies the coordinate of icons*/
+.barBtn {
+  transition: transform 0.2s;
+  left: 0;
+  margin-left: auto;
+}
+/*when moving the mouse to the buttons the icons go bigger and the cursor swith to pointer*/
+.actionsBar img:hover,
+.contactCardButtons img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
